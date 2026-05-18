@@ -19,16 +19,23 @@ DAX = [
 
 MDAX = [
     "AFX.DE","AIXA.DE","BOSS.DE","DUE.DE","EVD.DE","FME.DE","GXI.DE",
-    "HLAG.DE","HOT.DE","JEN.DE","KGX.DE","LEG.DE","NDX1.DE","O2D.DE",
+    "HLAG.DE","HOT.DE","JEN.DE","KGX.DE","LEG.DE","NDX1.DE",
     "RRTL.DE","SDF.DE","SGL.DE","TKA.DE","TUI1.DE","VBK.DE","WCH.DE",
-    "BC8.DE","ENR.DE","GBF.DE","HAB.DE","NEM.DE","SDX.DE",
+    "BC8.DE","ENR.DE","GBF.DE","NEM.DE",
 ]
 
 TECDAX = [
-    "AG1.DE","GFT.DE","IFX.DE","JEN.DE",
+    "AG1.DE","FIE.DE","GFT.DE","IFX.DE","JEN.DE",
     "KGX.DE","NDX1.DE","PSM.DE","QIA.DE","SAP.DE","SHL.DE","SIE.DE",
-    "SRT3.DE","SY1.DE","VBK.DE","WAF.DE","AIXA.DE","FIE.DE",
+    "SRT3.DE","SY1.DE","VBK.DE","WAF.DE","AIXA.DE",
 ]
 
-ALL_TICKERS = list(set(DAX + MDAX + TECDAX))
+ROHSTOFFE = [
+    "4GLD.DE",   # Xetra-Gold
+    "VZLD.DE",   # WisdomTree Silver
+    "CRUD.DE",   # WisdomTree Oil
+]
+
+ALL_TICKERS = list(set(DAX + MDAX + TECDAX + ROHSTOFFE))
 MARKET_INDEX = "^GDAXI"
+MIN_AVG_VOLUME = 100000  # mind. 500k Stück Tagesvolumen
