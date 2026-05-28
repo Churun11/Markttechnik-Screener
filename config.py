@@ -11,7 +11,7 @@ PIVOT_LOOKBACK    = 3
 DAX = [
     "ADS.DE","AIR.DE","ALV.DE","BAS.DE","BAYN.DE","BMW.DE","BNR.DE",
     "CON.DE","DB1.DE","DBK.DE","DHL.DE","DTE.DE","DTG.DE","EOAN.DE",
-    "FRE.DE","HEI.DE","HEN3.DE","HNR1.DE","IFX.DE","LIN.DE","MBG.DE",
+    "FRE.DE","HEI.DE","HEN3.DE","HNR1.DE","IFX.DE","MBG.DE",
     "MRK.DE","MTX.DE","MUV2.DE","P911.DE","PAH3.DE","PUM.DE","QIA.DE",
     "RHM.DE","RWE.DE","SAP.DE","SHL.DE","SIE.DE","SRT3.DE","SY1.DE",
     "VNA.DE","VOW3.DE","ZAL.DE",
@@ -32,8 +32,8 @@ TECDAX = [
 
 ROHSTOFFE = [
     "4GLD.DE",   # Xetra-Gold
-    "VZLD.DE",   # WisdomTree Silver
-    "CRUD.DE",   # WisdomTree Oil
+       # WisdomTree Silver
+       # WisdomTree Oil
 ]
 
 ALL_TICKERS = list(set(DAX + MDAX + TECDAX + ROHSTOFFE))
