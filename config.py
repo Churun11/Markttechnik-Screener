@@ -26,7 +26,7 @@ MDAX = [
     "BC8.DE", "ENR.DE", "GBF.DE", "NEM.DE",
     "8TRA.DE",   # Traton SE
     "RAA.DE",    # Rational AG
-    "HAB.DE",    # Hensoldt AG
+    "HAG.DE",    # Hensoldt AG
     "DHER.DE",   # Delivery Hero
 ]
 
